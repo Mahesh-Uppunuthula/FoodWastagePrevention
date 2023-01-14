@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodSharingScreen">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/close_the_food_sharing_screnn"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="callDashboard"
+        android:src="@drawable/ic_baseline_close_24"
+        android:tint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/heading_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Drop your details"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_the_food_sharing_screnn" />
+
+    <LinearLayout
+        android:id="@+id/quantity_pane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading_TV">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="can feed "
+            android:textColor="@color/hint_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" members"
+            android:textColor="@color/hint_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Quantity_ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:textColor="@color/sweet_pink"
+        android:textColorHint="@color/hint_color"
+        android:textSize="60sp"
+        app:layout_constraintStart_toEndOf="@id/quantity_pane"
+        app:layout_constraintTop_toBottomOf="@+id/heading_TV" />
+
+
+    <LinearLayout
+        android:id="@+id/type_of_food_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Quantity_ET"
+        app:layout_constraintTop_toBottomOf="@+id/heading_TV">
+
+        <CheckBox
+            android:id="@+id/Veg_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginBottom="5dp"
+            android:buttonTint="@color/black"
+            android:fontFamily="@font/baloo"
+            android:gravity="end"
+            android:paddingEnd="20dp"
+            android:text="Veg"
+            android:textColor="#64c464"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Non_veg_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:buttonTint="@color/black"
+            android:fontFamily="@font/baloo"
+            android:gravity="end"
+            android:paddingEnd="20dp"
+            android:text="Non Veg"
+            android:textColor="#F33542"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/time_pane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Quantity_ET">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="availability time"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/address_pane">
+
+            <EditText
+                android:id="@+id/Hrs_Et"
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/all_rounded_corners_pin_bg"
+                android:gravity="center"
+                android:hint="HH"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_color"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/Min_Et"
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/all_rounded_corners_pin_bg"
+                android:gravity="center"
+                android:hint="mm"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_color"
+                android:textSize="21sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Am_Pm_AT_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:boxStrokeColor="@color/sweet_pink"
+                app:hintTextColor="@color/hint_color">
+
+                <AutoCompleteTextView
+                    android:id="@+id/Am_Pm_AT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="true"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:text="am"
+                    android:inputType="none"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/address_pane"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time_pane">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="where we can find you ?"
+            android:textColor="@color/hint_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Address_et_layout"
+            style="@style/LoginTextInputLayoutStyleLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+
+            app:boxStrokeErrorColor="@color/sweet_pink"
+            app:counterMaxLength="10"
+
+            app:endIconContentDescription="clear"
+
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/hint_color"
+
+            app:errorEnabled="false"
+            app:errorIconTint="@color/sweet_pink"
+            app:errorTextColor="@color/error"
+            app:helperTextTextColor="#E18E37"
+
+            app:hintTextColor="@color/hint_color"
+            app:startIconDrawable="@drawable/ic_baseline_location_on_24"
+
+            app:startIconTint="@color/sweet_pink">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/Address_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="address"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Landmark_ET_layout"
+            style="@style/LoginTextInputLayoutStyleLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxStrokeErrorColor="@color/sweet_pink"
+            app:counterMaxLength="10"
+
+            app:endIconContentDescription="clear"
+
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/hint_color"
+
+            app:errorEnabled="true"
+            app:errorIconTint="@color/sweet_pink"
+            app:errorTextColor="@color/error"
+
+            app:helperTextTextColor="#E18E37"
+            app:hintTextColor="@color/hint_color"
+
+            app:startIconDrawable="@drawable/ic_baseline_my_location_24"
+            app:startIconTint="@color/sweet_pink">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/Landmark_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ex: nagole"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/donate_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/Terms_CB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:buttonTint="@color/sweet_pink" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text=" I agree to the " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="Terms and Conditions"
+                android:textColor="@color/sweet_pink" />
+            <!--
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="condition" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <CheckBox
+                android:id="@+id/Agreement_CB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:buttonTint="@color/sweet_pink" />
+
+            <TextView
+                android:id="@+id/Assurance_TV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="I assure that food is " />
+
+            <TextView
+                android:id="@+id/Assurance_TV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="hygiene "
+                android:textColor="@color/sweet_pink" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/donate_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/all_rounded_corners"
+        android:backgroundTint="@color/sweet_pink"
+        android:text="Donate"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:background="@drawable/circle"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/type_of_food_layout"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:clickable="true">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/packed_IV"-->
+    <!--            android:layout_width="40dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:src="@drawable/ic_baseline_shopping_bag_24"-->
+    <!--            android:visibility="visible"-->
+    <!--            android:clickable="true"/>-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/not_packed_IV"-->
+    <!--            android:layout_width="40dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:src="@drawable/ic_baseline_do_not_disturb_24"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:clickable="true"/>-->
+
+    <!--    </FrameLayout>-->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners.xml" value="0.268" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_ET.xml" value="0.167" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_for_small_view.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_line.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_pin.xml" value="0.167" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_pin_bg.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_pin_bg1.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/all_rounded_corners_profile_bg.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/circle.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.268" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2825" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_confirmation_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_create_your_profile.xml" value="0.290234375" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_feedback_screen.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_food_sharing_screen.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_login_registration.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_otp_verification.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_profile_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_test.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/activity_welcome_screen.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/FoodWastagePrevention/app/src/main/res/layout/dropdown_menu_item.xml" value="0.38697916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

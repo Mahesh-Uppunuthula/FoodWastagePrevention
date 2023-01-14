@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "360222253767",
+    "firebase_url": "https://authentication-36c2a-default-rtdb.firebaseio.com",
+    "project_id": "authentication-36c2a",
+    "storage_bucket": "authentication-36c2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360222253767:android:88a7702defb1b327ea94e2",
+        "android_client_info": {
+          "package_name": "com.example.foodwastageprevention"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360222253767-kpbuia7v417ur20qun75d24tm513g3d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodwastageprevention",
+            "certificate_hash": "3a3d593b8b15d87d0567922af37e50f6b21ea979"
+          }
+        },
+        {
+          "client_id": "360222253767-aq8dbfktmpk1kogpabp0pcf09h5o9g9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChrwbp50Sb3W9mi9pa8fcCY_PFSDCOFwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360222253767-aq8dbfktmpk1kogpabp0pcf09h5o9g9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
