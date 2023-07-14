@@ -35,6 +35,45 @@ FoodWastagePrevention is an Android application that serves as a bridge between 
 6. Donators and aggregators can track the status of their donations through the app.
 7. Users will receive notifications for new donations, requests, and updates on their donations.
 
+
+## Screenshots
+
+<div>
+  <p>Get Started Screen</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/1d185279-9854-4731-b488-80b65aa1a4e7" width="300">
+  
+  <div></div>
+
+  <p>Login / Sign Up with [phone number] Screen (without & with data)</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/fdf5a834-1c38-41d1-a2d9-b2a3e8c4372f" width="300">
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/01f87fb0-1a42-4146-a933-980d889071b2" width="300">
+
+  
+  <div></div>
+
+  <p>Phone Number Verification Screen (without & with data)</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/46e4d0e6-9b76-4d5f-b7e4-90bf9fdead12" width="300">
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/1416ba14-4c16-4f66-b636-baec7bdd4206" width="300">
+
+  <div></div>
+
+  <p>Profile Creation Screen (without & with data)</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/8fa0866e-25a0-45d5-aa38-074a8bf6e0cd" width="300">
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/222b2287-7610-4ace-8d8d-fc10f239894e" width="300">
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/828617cf-6d0f-453d-bed9-aed20e292bdc" width="300">
+
+  <div></div>
+
+  <p>Home Screen (without & with data)</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/4ad0f99d-a629-4dbe-adce-7da82e27a2f0" width="300">
+
+  <div></div>
+
+  <p>Donate Screen (without & with data)</p>
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/f2335d98-e515-455e-8ed4-f4d5fc96e4fd" width="300">
+  <img src="https://github.com/Mahesh-Uppunuthula/FoodWastagePrevention/assets/108076194/4fd5d549-1c35-4548-86a2-05edb191fd6b" width="300">
+</div>
+
 ## Contributing
 
 Contributions to FoodWastagePrevention are welcome! Here's how you can contribute:
